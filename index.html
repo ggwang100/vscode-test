@@ -7,11 +7,41 @@
 
     </head>
     
-  
+  <title>vscode 첫 테스트</title> //
+
+  <style type="text/css">
+  #imgg{
+      width: 40%;
+      height: 40%;
+
+  }
+
+  #mid_content{
+width:400px;
+height:400px;
+background-color:green;
+float:left;
+margin:5px;
+}
+
+.container {
+    max-width: 80em;
+    margin: 0 auto;
+    position: relative;
+}
+
+.after-box {
+  clear: left;
+}
+
+
+
+  </style>
+
 
     <body>
-
-        <title>vscode 첫 테스트</title>
+<div class="container">
+        
         <header> Hello world! </header>
         
       <nav>
@@ -27,6 +57,7 @@
 
     </section>
 
+    <div id = "mid_content">
     <article>
         <h1>html5 문서 기본</h1>
         <p>기본 문서 만들기</p>
@@ -36,21 +67,25 @@
         
     </article>
 
+</div>
+    
     <aside>
         확인
-    </aside>
+    </aside> 
 
-    
-    <footer>작성자: 김광태</footer>
-    <figure>
+<div class="after-box"></div>
 
-            <img src="/img/11.jpg" alt="logo">
+    <footer style="background-color:cyan">작성자: 김광태</footer>
+
+    <figure >
+
+            <img id= "imgg" src="/img/11.jpg" alt="logo">
          
             <figcaption>tbbrother 블로그 로고 입니다.</figcaption>
          
          </figure>
          
-         
+         </div>
 
     </body>
 
