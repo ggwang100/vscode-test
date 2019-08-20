@@ -27,7 +27,24 @@ margin:5px;
 
   </p> <!-- 줄바꿈 -->
 
-  <a href="http://www.naver.com">네이버</a>
+  <a href="http://www.naver.com" target="_blank">네이버</a>
+  <!--blank 링크홈페이지를 새창을 오픈함(새창 및 새탭)-->
+  <!--
+     절대경로 네이버경로처럼
+     상대경로 href="../doc/ingo.html" 안에 다른페이지
+            -> href="????.html"도 됨(같은 위치일경우)
+     내부파일 href="#anchor1" 현재페이지 안의 다른위치
+  
+  -->
+  <!--
+    _blank  새창에서 새탭을 연다
+    _self   현창에 새탭을 적재함
+    _parent 부모프레임에 새탭을 적재함
+    _top    새창에 새탭을 적재하고 모든 프레임을 취소함
+
+  -->
+</p>
+  <a href="/div100.html" target="_blank">문서구조화 참고</a>
 
   </header>
 
@@ -43,6 +60,8 @@ margin:5px;
   code 텍스트가 코드임을 표시
   sup 위첨자
   sub 아래첨자
+
+  hr 수평선 (ex ----------)
 -->
 
   </p>
@@ -54,12 +73,17 @@ margin:5px;
   <p>HTML5, CSS, Jvavcript, jquery, SQL, JSP, DB ...</p>
   
   <section>
-    <nav><ul>
+    <nav>
+      <ul> <!--번호 없는 리스트 -->
       <li>Home</li>
       <li>Home</li>
       <li>About</li>
       <li>Map</li>
-      </ul></nav>
+      </ul>
+
+      <!--ol태그 번호있는 리스트-->
+      <!--al태그 정의 리스트(dt 단어  dd단어설명)-->
+    </nav>
     
     <section>
       <button></button>
