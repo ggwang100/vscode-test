@@ -1,4 +1,4 @@
-<html id = "main00">
+<html id="main00">
 
 <head>
 
@@ -7,7 +7,7 @@
     </title>
 
     <style>
-        #main00{
+        #main00 {
             background-color: 070c52;
         }
 
@@ -31,10 +31,17 @@ height: 300px;
 
         .header01 {
             /*border-radius: 10px;*/
-            background-color: /*#070c52  */ #ffffff  ;
+            position:fixed; 
+            left:0px; 
+            top: 0%;
+           
+            
+            background-color:
+                /*#070c52  */
+                #ffffff;
             border-style: solid;
-           /*border-color: #5d5d5d;*/
-          /* border-width: 2px;*/
+            /*border-color: #5d5d5d;*/
+            /* border-width: 2px;*/
             color: #FFFFFF;
             margin-bottom: 5px;
             /*padding: 10px;*/
@@ -54,47 +61,57 @@ height: 300px;
 
         .an_item {
             padding-right: 175px;
-            
+
         }
-        .an_main{
+
+        .an_main {
             width: 100%;
-            
+
+        }
+
+        .an_main01 {
+            widows: 100%;
+            background-color: rgb(44, 8, 247);
         }
 
 
         #side_left {
             width: 200px;
-           /* height: 400px;*/
+            /* height: 400px;*/
             background-color: yellow;
             float: left;
             margin: 5px;
-            position: relative; left: 7%;
+            position: relative;
+            left: 2%;
         }
 
         #side_left_box {
             width: 95%;
             height: 45%;
-            background-color: blue;
+            background-color: rgb(158, 158, 190);
             float: left;
             margin: 5px;
-            
+
         }
 
-        #mid_content { /*가운데 공간*/
-            width: 1200px;
-            /*height: 400px;*/
+        #mid_content {
+            /*가운데 공간*/
+            width: 70%;
+            height: 100%;
             background-color: white;
             float: left;
             margin: 5px;
-            position: relative; left: 8%;
-            text-align:center;
+            position: relative;
+            left: 2%;
+            text-align: center;
         }
 
         #side_content_box {
             display: inline;
             background-color: white;
-           /* margin: 5px;*/
-         
+            /* margin: 5px;*/
+
+
         }
 
         #side_rigth {
@@ -103,98 +120,176 @@ height: 300px;
             background-color: white;
             float: left;
             margin: 5px;
-            position: relative; left: 9%;
+            position: relative;
+            left: 3%;
         }
 
         #side_rigth_box {
             width: 95%;
-            height: 45%;
+            height: 30%;
             float: left;
             background-color: skyblue;
             margin: 5px;
             margin-top: 95%;
         }
-        .lele{
-            
-            display: block; margin: 0px auto;
-          
-        }
-        
 
+        .lele {
+
+            display: block;
+            margin: 0px auto;
+
+        }
+
+
+        .footer {
+
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 15px 0;
+            text-align: center;
+            color: white;
+            background: rgb(255, 255, 255);
+
+        }
+
+        .footer01 {
+
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            height: 60px;
+            width: 100%;
+            background: grey;
+            color: white;
+        }
+
+        * {
+            margin: 0;
+        }
+
+        /* 리셋을 하지 않은 경우 추가 */
+
+        html {
+            position: relative;
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+        }
     </style>
 
-<div>
-    
-</div>
-<div> 
+   
+    <div>
 
-    <nav class="header01 headvi00 ">
-           
+        <nav class="header01 headvi00 ">
+
             <style type="text/css">
-                a:link { color: red; text-decoration: none;}
-                a:visited { color: black; text-decoration: none;}
-                a:hover { color: blue; text-decoration: underline;}
-               </style>
-        <!-- a태그 파란색 및 밑줄 없애기 -->
+                a:link {
+                    color: red;
+                    text-decoration: none;
+                }
 
-        <dl class="an_main">
-            <!--정의 리스트 -->
-            <df style="color:rgb(0, 8, 114)" class="an_item hedasize"><a href="GT Tottenham.html">Home</a></df>
-            <df style="color:rgb(0, 8, 114)" class="an_item hedasize">player</df>
-            <df style="color:rgb(0, 8, 114)" class="an_item hedasize">About</df>
-            <df style="color:rgb(0, 8, 114)" class="an_item hedasize">news</df>
-            <df style="color:rgb(0, 8, 114)" class="an_item hedasize">Map</df>
-        </dl>
-    </nav>
-</div>
+                a:visited {
+                    color: black;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: blue;
+                    text-decoration: underline;
+                }
+            </style>
+            <!-- a태그 파란색 및 밑줄 없애기 -->
+
+            <dl class="an_main">
+                <!--정의 리스트 -->
+                <df style="color:rgb(0, 8, 114)" class="an_item hedasize"><a href="GT Tottenham.html">Home</a></df>
+                <df style="color:rgb(0, 8, 114)" class="an_item hedasize">player</df>
+                <df style="color:rgb(0, 8, 114)" class="an_item hedasize">About</df>
+                <df style="color:rgb(0, 8, 114)" class="an_item hedasize">news</df>
+                <df style="color:rgb(0, 8, 114)" class="an_item hedasize">Map</df>
+            </dl>
+        </nav>
+    </div>
 
     <img id=main src="/img/son main 01.jpeg">
 
 
 </head>
 
-<header>
-
-
-    
-
-</header>
 
 
 
 <body>
 
-    <section>
+    <aside>
 
-
-  <div id="side_left">사이드바 왼쪽
+        <div id="side_left">사이드바 왼쪽
             <div id="side_left_box">사이드바 왼쪽 위</div>
             <div id="side_left_box">사이드바 왼쪽 아래</div>
         </div>
-    
-    
-    </section>
-
-        <aside>
+    </aside>
 
 
-        <div id="mid_content" >
+
+    <article>
+
+
+        <div id="mid_content">
             <div id="side_content_box">
-            </p>
-                <img class="lele" width="80%"  src="/img/Tottenham-logo.png">
-                <strong  >Tottenham Hotspur F.C.</strong>
+                </p>
+                <img class="lele" width="80%" src="/img/Tottenham-logo.png">
+                <strong>Tottenham Hotspur F.C.</strong>
             </div>
-        </p>
+            </p>
             <div id="side_content_box">영국 잉글랜드 런던 북부 지역 토트넘을 연고지로 하는 프로 축구 클럽</div>
-        </div>
 
+            <footer class="footer">
+
+                <style>
+                    .img00 {
+                        width: 4%;
+                        height: 4%;
+                        left: 5%
+                    }
+                </style>
+                <!-- 
+              <address> 연락처 : <a href="mailto:webmaster@somedomain.com">help@example.com</a>.
+            <br> 모질라 재단, 1981 Landings Drive Building K Mountain View, CA 94043-0801 USA </address> <small>Copyright &copy; 2013 Mozila</small> 
+          -->
+
+                <img class="img00" src="/img/f1.png">
+                <img class="img00" src="/img/f2.png">
+                <img class="img00" src="/img/f3.png">
+
+            </footer>
+
+
+    </article>
+
+    <p>
+
+    </p>
+
+
+
+    </div>
+
+
+
+    <aside>
 
         <div id="side_rigth">
             <br>
-            <img class="lele" width="100px" height="100px"   src="/img/Tottenham_Hotspur.png"> 
+            <img class="lele" width="100px" height="100px" src="/img/Tottenham_Hotspur.png">
             <div id="side_rigth_box">
-                
-               
+
+
                 <p>프리미어리그 </p>
                 <p>프리미어의 역사</p>
                 <p> 토트넘 핫스퍼 공식 홈페이지</p>
@@ -204,11 +299,12 @@ height: 300px;
 
 
 
-</aside>
+    </aside>
 
 
 
 </body>
+
 
 
 
